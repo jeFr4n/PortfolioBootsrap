@@ -1,0 +1,66 @@
+/* style.css */
+
+/* Estilos generales */
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #343a40;
+    padding: 1rem 0;
+    border-bottom: 1px solid #ffffff33;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-size: 1.5rem;
+}
+
+.navbar-toggler-icon i {
+    color: #ffffff;
+    font-size: 1.8rem;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* Estilos para la sección Hero */
+.jumbotron {
+    background-color: #343a40;
+    padding: calc(25% + 56px) 0;
+    /* Toma en cuenta la altura de la barra de navegación (56px) */
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.jumbotron-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.jumbotron h1,
+.jumbotron p {
+    color: #ffffff;
+}
+
+/* Contenido de la Página */
+.page-content {
+    padding: 50px 0;
+}
